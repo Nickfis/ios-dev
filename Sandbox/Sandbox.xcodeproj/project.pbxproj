@@ -7,34 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		85A7EAF928BA4BF9003E830C /* BookwormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A7EAF828BA4BF9003E830C /* BookwormApp.swift */; };
-		85A7EAFB28BA4BF9003E830C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A7EAFA28BA4BF9003E830C /* ContentView.swift */; };
-		85A7EAFD28BA4BFA003E830C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A7EAFC28BA4BFA003E830C /* Assets.xcassets */; };
-		85A7EB0028BA4BFA003E830C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A7EAFF28BA4BFA003E830C /* Preview Assets.xcassets */; };
-		85A7EB0828BA4C17003E830C /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85A7EB0628BA4C17003E830C /* Bookworm.xcdatamodeld */; };
-		85A7EB0A28BA4C48003E830C /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A7EB0928BA4C48003E830C /* DataController.swift */; };
-		85AF1B2628BB87D30079509E /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AF1B2528BB87D30079509E /* AddBookView.swift */; };
-		85AF1B2828BB8C1A0079509E /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AF1B2728BB8C1A0079509E /* RatingView.swift */; };
-		85AF1B2A28BB90D20079509E /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AF1B2928BB90D20079509E /* EmojiRatingView.swift */; };
-		85AF1B2C28BB937C0079509E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AF1B2B28BB937C0079509E /* DetailView.swift */; };
+		85BDD2CF28BFBE6400E109DD /* SandboxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDD2CE28BFBE6400E109DD /* SandboxApp.swift */; };
+		85BDD2D128BFBE6400E109DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDD2D028BFBE6400E109DD /* ContentView.swift */; };
+		85BDD2D328BFBE6500E109DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85BDD2D228BFBE6500E109DD /* Assets.xcassets */; };
+		85BDD2D628BFBE6500E109DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85BDD2D528BFBE6500E109DD /* Preview Assets.xcassets */; };
+		85BDD2DD28BFBFE200E109DD /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDD2DC28BFBFE200E109DD /* ImagePicker.swift */; };
+		85BDD2DF28BFE76F00E109DD /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDD2DE28BFE76F00E109DD /* ImageSaver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		85A7EAF528BA4BF9003E830C /* Bookworm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookworm.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		85A7EAF828BA4BF9003E830C /* BookwormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookwormApp.swift; sourceTree = "<group>"; };
-		85A7EAFA28BA4BF9003E830C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		85A7EAFC28BA4BFA003E830C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		85A7EAFF28BA4BFA003E830C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		85A7EB0728BA4C17003E830C /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
-		85A7EB0928BA4C48003E830C /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
-		85AF1B2528BB87D30079509E /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
-		85AF1B2728BB8C1A0079509E /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
-		85AF1B2928BB90D20079509E /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
-		85AF1B2B28BB937C0079509E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		85BDD2CB28BFBE6400E109DD /* Sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85BDD2CE28BFBE6400E109DD /* SandboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandboxApp.swift; sourceTree = "<group>"; };
+		85BDD2D028BFBE6400E109DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		85BDD2D228BFBE6500E109DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85BDD2D528BFBE6500E109DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85BDD2DC28BFBFE200E109DD /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		85BDD2DE28BFE76F00E109DD /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		85A7EAF228BA4BF9003E830C /* Frameworks */ = {
+		85BDD2C828BFBE6400E109DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,43 +36,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		85A7EAEC28BA4BF9003E830C = {
+		85BDD2C228BFBE6400E109DD = {
 			isa = PBXGroup;
 			children = (
-				85A7EAF728BA4BF9003E830C /* Bookworm */,
-				85A7EAF628BA4BF9003E830C /* Products */,
+				85BDD2CD28BFBE6400E109DD /* Sandbox */,
+				85BDD2CC28BFBE6400E109DD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		85A7EAF628BA4BF9003E830C /* Products */ = {
+		85BDD2CC28BFBE6400E109DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				85A7EAF528BA4BF9003E830C /* Bookworm.app */,
+				85BDD2CB28BFBE6400E109DD /* Sandbox.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		85A7EAF728BA4BF9003E830C /* Bookworm */ = {
+		85BDD2CD28BFBE6400E109DD /* Sandbox */ = {
 			isa = PBXGroup;
 			children = (
-				85A7EAF828BA4BF9003E830C /* BookwormApp.swift */,
-				85A7EB0928BA4C48003E830C /* DataController.swift */,
-				85AF1B2528BB87D30079509E /* AddBookView.swift */,
-				85A7EAFA28BA4BF9003E830C /* ContentView.swift */,
-				85AF1B2B28BB937C0079509E /* DetailView.swift */,
-				85AF1B2928BB90D20079509E /* EmojiRatingView.swift */,
-				85AF1B2728BB8C1A0079509E /* RatingView.swift */,
-				85A7EB0628BA4C17003E830C /* Bookworm.xcdatamodeld */,
-				85A7EAFC28BA4BFA003E830C /* Assets.xcassets */,
-				85A7EAFE28BA4BFA003E830C /* Preview Content */,
+				85BDD2CE28BFBE6400E109DD /* SandboxApp.swift */,
+				85BDD2D028BFBE6400E109DD /* ContentView.swift */,
+				85BDD2DE28BFE76F00E109DD /* ImageSaver.swift */,
+				85BDD2DC28BFBFE200E109DD /* ImagePicker.swift */,
+				85BDD2D228BFBE6500E109DD /* Assets.xcassets */,
+				85BDD2D428BFBE6500E109DD /* Preview Content */,
 			);
-			path = Bookworm;
+			path = Sandbox;
 			sourceTree = "<group>";
 		};
-		85A7EAFE28BA4BFA003E830C /* Preview Content */ = {
+		85BDD2D428BFBE6500E109DD /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				85A7EAFF28BA4BFA003E830C /* Preview Assets.xcassets */,
+				85BDD2D528BFBE6500E109DD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -88,39 +76,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		85A7EAF428BA4BF9003E830C /* Bookworm */ = {
+		85BDD2CA28BFBE6400E109DD /* Sandbox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85A7EB0328BA4BFA003E830C /* Build configuration list for PBXNativeTarget "Bookworm" */;
+			buildConfigurationList = 85BDD2D928BFBE6500E109DD /* Build configuration list for PBXNativeTarget "Sandbox" */;
 			buildPhases = (
-				85A7EAF128BA4BF9003E830C /* Sources */,
-				85A7EAF228BA4BF9003E830C /* Frameworks */,
-				85A7EAF328BA4BF9003E830C /* Resources */,
+				85BDD2C728BFBE6400E109DD /* Sources */,
+				85BDD2C828BFBE6400E109DD /* Frameworks */,
+				85BDD2C928BFBE6400E109DD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Bookworm;
-			productName = Bookworm;
-			productReference = 85A7EAF528BA4BF9003E830C /* Bookworm.app */;
+			name = Sandbox;
+			productName = Sandbox;
+			productReference = 85BDD2CB28BFBE6400E109DD /* Sandbox.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		85A7EAED28BA4BF9003E830C /* Project object */ = {
+		85BDD2C328BFBE6400E109DD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					85A7EAF428BA4BF9003E830C = {
+					85BDD2CA28BFBE6400E109DD = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 85A7EAF028BA4BF9003E830C /* Build configuration list for PBXProject "Bookworm" */;
+			buildConfigurationList = 85BDD2C628BFBE6400E109DD /* Build configuration list for PBXProject "Sandbox" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -128,48 +116,44 @@
 				en,
 				Base,
 			);
-			mainGroup = 85A7EAEC28BA4BF9003E830C;
-			productRefGroup = 85A7EAF628BA4BF9003E830C /* Products */;
+			mainGroup = 85BDD2C228BFBE6400E109DD;
+			productRefGroup = 85BDD2CC28BFBE6400E109DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				85A7EAF428BA4BF9003E830C /* Bookworm */,
+				85BDD2CA28BFBE6400E109DD /* Sandbox */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		85A7EAF328BA4BF9003E830C /* Resources */ = {
+		85BDD2C928BFBE6400E109DD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85A7EB0028BA4BFA003E830C /* Preview Assets.xcassets in Resources */,
-				85A7EAFD28BA4BFA003E830C /* Assets.xcassets in Resources */,
+				85BDD2D628BFBE6500E109DD /* Preview Assets.xcassets in Resources */,
+				85BDD2D328BFBE6500E109DD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		85A7EAF128BA4BF9003E830C /* Sources */ = {
+		85BDD2C728BFBE6400E109DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85A7EAFB28BA4BF9003E830C /* ContentView.swift in Sources */,
-				85AF1B2C28BB937C0079509E /* DetailView.swift in Sources */,
-				85A7EB0A28BA4C48003E830C /* DataController.swift in Sources */,
-				85AF1B2A28BB90D20079509E /* EmojiRatingView.swift in Sources */,
-				85A7EB0828BA4C17003E830C /* Bookworm.xcdatamodeld in Sources */,
-				85AF1B2828BB8C1A0079509E /* RatingView.swift in Sources */,
-				85A7EAF928BA4BF9003E830C /* BookwormApp.swift in Sources */,
-				85AF1B2628BB87D30079509E /* AddBookView.swift in Sources */,
+				85BDD2DD28BFBFE200E109DD /* ImagePicker.swift in Sources */,
+				85BDD2D128BFBE6400E109DD /* ContentView.swift in Sources */,
+				85BDD2CF28BFBE6400E109DD /* SandboxApp.swift in Sources */,
+				85BDD2DF28BFE76F00E109DD /* ImageSaver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		85A7EB0128BA4BFA003E830C /* Debug */ = {
+		85BDD2D728BFBE6500E109DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -229,7 +213,7 @@
 			};
 			name = Debug;
 		};
-		85A7EB0228BA4BFA003E830C /* Release */ = {
+		85BDD2D828BFBE6500E109DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -283,17 +267,18 @@
 			};
 			name = Release;
 		};
-		85A7EB0428BA4BFA003E830C /* Debug */ = {
+		85BDD2DA28BFBE6500E109DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Bookworm/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Sandbox/Preview Content\"";
 				DEVELOPMENT_TEAM = DL789K5Q2H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your filtered phot.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,7 +289,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kizo-agency.Bookworm";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kizo-agency.Sandbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -312,17 +297,18 @@
 			};
 			name = Debug;
 		};
-		85A7EB0528BA4BFA003E830C /* Release */ = {
+		85BDD2DB28BFBE6500E109DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Bookworm/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Sandbox/Preview Content\"";
 				DEVELOPMENT_TEAM = DL789K5Q2H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your filtered phot.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -333,7 +319,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kizo-agency.Bookworm";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kizo-agency.Sandbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -344,38 +330,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		85A7EAF028BA4BF9003E830C /* Build configuration list for PBXProject "Bookworm" */ = {
+		85BDD2C628BFBE6400E109DD /* Build configuration list for PBXProject "Sandbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				85A7EB0128BA4BFA003E830C /* Debug */,
-				85A7EB0228BA4BFA003E830C /* Release */,
+				85BDD2D728BFBE6500E109DD /* Debug */,
+				85BDD2D828BFBE6500E109DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85A7EB0328BA4BFA003E830C /* Build configuration list for PBXNativeTarget "Bookworm" */ = {
+		85BDD2D928BFBE6500E109DD /* Build configuration list for PBXNativeTarget "Sandbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				85A7EB0428BA4BFA003E830C /* Debug */,
-				85A7EB0528BA4BFA003E830C /* Release */,
+				85BDD2DA28BFBE6500E109DD /* Debug */,
+				85BDD2DB28BFBE6500E109DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		85A7EB0628BA4C17003E830C /* Bookworm.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				85A7EB0728BA4C17003E830C /* Bookworm.xcdatamodel */,
-			);
-			currentVersion = 85A7EB0728BA4C17003E830C /* Bookworm.xcdatamodel */;
-			path = Bookworm.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 85A7EAED28BA4BF9003E830C /* Project object */;
+	rootObject = 85BDD2C328BFBE6400E109DD /* Project object */;
 }
