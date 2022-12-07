@@ -7,78 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		855A41E7293E17440076A98C /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855A41E6293E17440076A98C /* ImageSaver.swift */; };
-		85D71A8828D5BD50005814DF /* HotProspectsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D71A8728D5BD50005814DF /* HotProspectsApp.swift */; };
-		85D71A8A28D5BD50005814DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D71A8928D5BD50005814DF /* ContentView.swift */; };
-		85D71A8C28D5BD53005814DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85D71A8B28D5BD53005814DF /* Assets.xcassets */; };
-		85D71A8F28D5BD53005814DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85D71A8E28D5BD53005814DF /* Preview Assets.xcassets */; };
-		85D71A9628D5BD90005814DF /* ProspectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D71A9528D5BD90005814DF /* ProspectsView.swift */; };
-		85D71A9828D5BD98005814DF /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D71A9728D5BD98005814DF /* MeView.swift */; };
-		85D71A9A28D5BF60005814DF /* Prospect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D71A9928D5BF60005814DF /* Prospect.swift */; };
-		85D71A9D28D5EDE9005814DF /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 85D71A9C28D5EDE9005814DF /* CodeScanner */; };
+		8542E2802940A0D800286EC8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542E27F2940A0D800286EC8 /* CardView.swift */; };
+		856DD01029409EEB00557091 /* FlashZillaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856DD00F29409EEB00557091 /* FlashZillaApp.swift */; };
+		856DD01229409EEB00557091 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856DD01129409EEB00557091 /* ContentView.swift */; };
+		856DD01429409EEC00557091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 856DD01329409EEC00557091 /* Assets.xcassets */; };
+		856DD01729409EEC00557091 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 856DD01629409EEC00557091 /* Preview Assets.xcassets */; };
+		856DD01E29409FCD00557091 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856DD01D29409FCD00557091 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		855A41E6293E17440076A98C /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
-		85D71A8428D5BD50005814DF /* HotProspects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotProspects.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		85D71A8728D5BD50005814DF /* HotProspectsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotProspectsApp.swift; sourceTree = "<group>"; };
-		85D71A8928D5BD50005814DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		85D71A8B28D5BD53005814DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		85D71A8E28D5BD53005814DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		85D71A9528D5BD90005814DF /* ProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
-		85D71A9728D5BD98005814DF /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
-		85D71A9928D5BF60005814DF /* Prospect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
-		85D71A9E28D5EE9A005814DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8542E27F2940A0D800286EC8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		856DD00C29409EEB00557091 /* FlashZilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashZilla.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		856DD00F29409EEB00557091 /* FlashZillaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashZillaApp.swift; sourceTree = "<group>"; };
+		856DD01129409EEB00557091 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		856DD01329409EEC00557091 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		856DD01629409EEC00557091 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		856DD01D29409FCD00557091 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		85D71A8128D5BD50005814DF /* Frameworks */ = {
+		856DD00929409EEB00557091 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85D71A9D28D5EDE9005814DF /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		85D71A7B28D5BD50005814DF = {
+		856DD00329409EEB00557091 = {
 			isa = PBXGroup;
 			children = (
-				85D71A8628D5BD50005814DF /* HotProspects */,
-				85D71A8528D5BD50005814DF /* Products */,
+				856DD00E29409EEB00557091 /* FlashZilla */,
+				856DD00D29409EEB00557091 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		85D71A8528D5BD50005814DF /* Products */ = {
+		856DD00D29409EEB00557091 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				85D71A8428D5BD50005814DF /* HotProspects.app */,
+				856DD00C29409EEB00557091 /* FlashZilla.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		85D71A8628D5BD50005814DF /* HotProspects */ = {
+		856DD00E29409EEB00557091 /* FlashZilla */ = {
 			isa = PBXGroup;
 			children = (
-				85D71A9E28D5EE9A005814DF /* Info.plist */,
-				85D71A8728D5BD50005814DF /* HotProspectsApp.swift */,
-				85D71A9728D5BD98005814DF /* MeView.swift */,
-				855A41E6293E17440076A98C /* ImageSaver.swift */,
-				85D71A9528D5BD90005814DF /* ProspectsView.swift */,
-				85D71A8928D5BD50005814DF /* ContentView.swift */,
-				85D71A9928D5BF60005814DF /* Prospect.swift */,
-				85D71A8B28D5BD53005814DF /* Assets.xcassets */,
-				85D71A8D28D5BD53005814DF /* Preview Content */,
+				856DD00F29409EEB00557091 /* FlashZillaApp.swift */,
+				856DD01129409EEB00557091 /* ContentView.swift */,
+				856DD01D29409FCD00557091 /* Card.swift */,
+				8542E27F2940A0D800286EC8 /* CardView.swift */,
+				856DD01329409EEC00557091 /* Assets.xcassets */,
+				856DD01529409EEC00557091 /* Preview Content */,
 			);
-			path = HotProspects;
+			path = FlashZilla;
 			sourceTree = "<group>";
 		};
-		85D71A8D28D5BD53005814DF /* Preview Content */ = {
+		856DD01529409EEC00557091 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				85D71A8E28D5BD53005814DF /* Preview Assets.xcassets */,
+				856DD01629409EEC00557091 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -86,42 +76,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		85D71A8328D5BD50005814DF /* HotProspects */ = {
+		856DD00B29409EEB00557091 /* FlashZilla */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85D71A9228D5BD53005814DF /* Build configuration list for PBXNativeTarget "HotProspects" */;
+			buildConfigurationList = 856DD01A29409EEC00557091 /* Build configuration list for PBXNativeTarget "FlashZilla" */;
 			buildPhases = (
-				85D71A8028D5BD50005814DF /* Sources */,
-				85D71A8128D5BD50005814DF /* Frameworks */,
-				85D71A8228D5BD50005814DF /* Resources */,
+				856DD00829409EEB00557091 /* Sources */,
+				856DD00929409EEB00557091 /* Frameworks */,
+				856DD00A29409EEB00557091 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HotProspects;
-			packageProductDependencies = (
-				85D71A9C28D5EDE9005814DF /* CodeScanner */,
-			);
-			productName = HotProspects;
-			productReference = 85D71A8428D5BD50005814DF /* HotProspects.app */;
+			name = FlashZilla;
+			productName = FlashZilla;
+			productReference = 856DD00C29409EEB00557091 /* FlashZilla.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		85D71A7C28D5BD50005814DF /* Project object */ = {
+		856DD00429409EEB00557091 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					85D71A8328D5BD50005814DF = {
+					856DD00B29409EEB00557091 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 85D71A7F28D5BD50005814DF /* Build configuration list for PBXProject "HotProspects" */;
+			buildConfigurationList = 856DD00729409EEB00557091 /* Build configuration list for PBXProject "FlashZilla" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -129,49 +116,44 @@
 				en,
 				Base,
 			);
-			mainGroup = 85D71A7B28D5BD50005814DF;
-			packageReferences = (
-				85D71A9B28D5EDE9005814DF /* XCRemoteSwiftPackageReference "CodeScanner" */,
-			);
-			productRefGroup = 85D71A8528D5BD50005814DF /* Products */;
+			mainGroup = 856DD00329409EEB00557091;
+			productRefGroup = 856DD00D29409EEB00557091 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				85D71A8328D5BD50005814DF /* HotProspects */,
+				856DD00B29409EEB00557091 /* FlashZilla */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		85D71A8228D5BD50005814DF /* Resources */ = {
+		856DD00A29409EEB00557091 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85D71A8F28D5BD53005814DF /* Preview Assets.xcassets in Resources */,
-				85D71A8C28D5BD53005814DF /* Assets.xcassets in Resources */,
+				856DD01729409EEC00557091 /* Preview Assets.xcassets in Resources */,
+				856DD01429409EEC00557091 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		85D71A8028D5BD50005814DF /* Sources */ = {
+		856DD00829409EEB00557091 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85D71A9828D5BD98005814DF /* MeView.swift in Sources */,
-				855A41E7293E17440076A98C /* ImageSaver.swift in Sources */,
-				85D71A9A28D5BF60005814DF /* Prospect.swift in Sources */,
-				85D71A9628D5BD90005814DF /* ProspectsView.swift in Sources */,
-				85D71A8A28D5BD50005814DF /* ContentView.swift in Sources */,
-				85D71A8828D5BD50005814DF /* HotProspectsApp.swift in Sources */,
+				856DD01229409EEB00557091 /* ContentView.swift in Sources */,
+				856DD01E29409FCD00557091 /* Card.swift in Sources */,
+				8542E2802940A0D800286EC8 /* CardView.swift in Sources */,
+				856DD01029409EEB00557091 /* FlashZillaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		85D71A9028D5BD53005814DF /* Debug */ = {
+		856DD01829409EEC00557091 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,7 +213,7 @@
 			};
 			name = Debug;
 		};
-		85D71A9128D5BD53005814DF /* Release */ = {
+		856DD01929409EEC00557091 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,31 +267,28 @@
 			};
 			name = Release;
 		};
-		85D71A9328D5BD53005814DF /* Debug */ = {
+		856DD01B29409EEC00557091 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HotProspects/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FlashZilla/Preview Content\"";
 				DEVELOPMENT_TEAM = DL789K5Q2H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HotProspects/Info.plist;
-				INFOPLIST_KEY_NSCameraUsageDescription = "Needed to scan QR codes";
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need to save your qr code";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kizo-agency.HotProspects";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kizo-agency.FlashZilla";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -317,31 +296,28 @@
 			};
 			name = Debug;
 		};
-		85D71A9428D5BD53005814DF /* Release */ = {
+		856DD01C29409EEC00557091 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HotProspects/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FlashZilla/Preview Content\"";
 				DEVELOPMENT_TEAM = DL789K5Q2H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HotProspects/Info.plist;
-				INFOPLIST_KEY_NSCameraUsageDescription = "Needed to scan QR codes";
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need to save your qr code";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kizo-agency.HotProspects";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kizo-agency.FlashZilla";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -352,44 +328,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		85D71A7F28D5BD50005814DF /* Build configuration list for PBXProject "HotProspects" */ = {
+		856DD00729409EEB00557091 /* Build configuration list for PBXProject "FlashZilla" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				85D71A9028D5BD53005814DF /* Debug */,
-				85D71A9128D5BD53005814DF /* Release */,
+				856DD01829409EEC00557091 /* Debug */,
+				856DD01929409EEC00557091 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85D71A9228D5BD53005814DF /* Build configuration list for PBXNativeTarget "HotProspects" */ = {
+		856DD01A29409EEC00557091 /* Build configuration list for PBXNativeTarget "FlashZilla" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				85D71A9328D5BD53005814DF /* Debug */,
-				85D71A9428D5BD53005814DF /* Release */,
+				856DD01B29409EEC00557091 /* Debug */,
+				856DD01C29409EEC00557091 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		85D71A9B28D5EDE9005814DF /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/twostraws/CodeScanner";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		85D71A9C28D5EDE9005814DF /* CodeScanner */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 85D71A9B28D5EDE9005814DF /* XCRemoteSwiftPackageReference "CodeScanner" */;
-			productName = CodeScanner;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 85D71A7C28D5BD50005814DF /* Project object */;
+	rootObject = 856DD00429409EEB00557091 /* Project object */;
 }
